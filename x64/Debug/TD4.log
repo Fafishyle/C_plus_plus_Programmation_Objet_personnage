@@ -1,8 +1,2 @@
 ﻿  Personnage.cpp
-C:\Users\finar\Documents\Univ lyon 2 2023-2024\Spécialisation C++\TD4\TD4_C_Objet\Personnage.h(20,2): error C2679: '<<' binaire : aucun opérateur trouvé qui accepte un opérande de partie droite de type 'const char [17]' (ou il n'existe pas de conversion acceptable)
-C:\Users\finar\Documents\Univ lyon 2 2023-2024\Spécialisation C++\TD4\TD4_C_Objet\Personnage.h(18,15): message : est peut-être 'std::ostream &operator <<(std::ostream &,const Personnage &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5185,32): message : ou       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
-C:\Users\finar\Documents\Univ lyon 2 2023-2024\Spécialisation C++\TD4\TD4_C_Objet\Personnage.h(20,2): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)' : nous n’avons pas pu déduire modèle de l'argument 'const std::basic_string<_Elem,_Traits,_Alloc> &' de 'const char [17]'.
-C:\Users\finar\Documents\Univ lyon 2 2023-2024\Spécialisation C++\TD4\TD4_C_Objet\Personnage.h(20,2): message : lors de la tentative de mise en correspondance de la liste des arguments '(std::ostream, const char [17])'
-  TD4.cpp
-  Génération de code en cours...
+  TD4.vcxproj -> C:\Users\finar\Documents\Univ lyon 2 2023-2024\Spécialisation C++\TD4\TD4_C_Objet\x64\Debug\TD4.exe
