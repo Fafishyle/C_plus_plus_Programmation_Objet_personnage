@@ -62,5 +62,5 @@ void CompteBancaire::consulteSolde()
         //Affiche en rouge
         Couleur_affichage = 0x04; 
 	}
-	std::cout << "Solde actuel	:	"<< setcolor(Couleur_affichage)<< solde <<setcolor(0x07)<< std::endl;
+	std::cout << "Solde actuel	:	"<< setcolor(Couleur_affichage)<< solde <<setcolor(0x07);
 };

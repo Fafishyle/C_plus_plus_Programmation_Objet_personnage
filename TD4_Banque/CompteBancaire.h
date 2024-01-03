@@ -1,6 +1,7 @@
 #pragma once
 class CompteBancaire
 {
+protected:
 	int id;
 	double solde;
 public:

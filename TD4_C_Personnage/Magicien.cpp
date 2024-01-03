@@ -17,7 +17,11 @@ Magicien::Magicien(std::string nomMage, int vieMage, int manaMage) : Personnage(
  *				Il appelle un constructeur par défaut de l'attribut mana, ce qui fait que mana prend la valeur de manaMage, qui en paramètre. 
  */
 
-int Magicien::get_mana() {
+
+/* déclarer une fonction membre const, 
+ * indiquant au compilateur qu'elle ne modifie pas l'état de l'objet
+ */
+int Magicien::get_mana() const{
 	return mana;
 };
 
@@ -25,4 +29,12 @@ std::string Magicien::stat() {
 	std::string statistique_perso = Personnage::stat();
 	return statistique_perso + "	| Mana : " + std::to_string(mana);
 };
+
+void Magicien::changeVie(int vie_nouvelle)
+{
+	Personnage::changeVie(vie_nouvelle);
+	std::cout << "Magicien::changeVie > Nous avons modifier la vie du Magicien." << std::endl;
+};
+
+
 

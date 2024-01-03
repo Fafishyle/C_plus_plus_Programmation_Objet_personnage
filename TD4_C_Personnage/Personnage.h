@@ -11,12 +11,13 @@ public:
 	Personnage(std::string nom, int vie);
 	~Personnage();	//destructeur
 
-	std::string stat();
+	std::string stat() const;
 	void operator << (Personnage autre_joueur);
 	void operator ++ ();
 	int operator- (Personnage autre_joueur);
-	friend std::ostream& operator << (std::ostream&, const Personnage&);
-	void changeVie(int vie_nouvelle);
+	//friend std::ostream& operator << (std::ostream&, const Personnage&);
+	// MOT CLE : virtual permet, en cas de polymorphe (par pointeur ou reference), permet d'adapter l'objet pointé 
+	virtual void changeVie(int vie_nouvelle);
 
 };
 

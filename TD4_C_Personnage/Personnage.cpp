@@ -8,7 +8,7 @@ Personnage::~Personnage()
 	std::cout << "____Joueur " << nom << " detruit.____"<<std::endl;
 };
 
-std::string Personnage::stat() {
+std::string Personnage::stat() const {
 	return "Nom du joueur : " + nom + "	| Point de vie : " + std::to_string(vie);
 };
 
@@ -33,6 +33,7 @@ void Personnage::changeVie(int vie_nouvelle)
 	{
 		//wcout pour les avertissements
 		std::wcout << "__!__Personnage::changeVie > impossible de modifier la valeur de vie car negative.__!__" << std::endl;
+		vie = 0;
 	}
 	else
 	{
@@ -40,10 +41,7 @@ void Personnage::changeVie(int vie_nouvelle)
 	}
 };
 
-std::ostream& operator<< (std::ostream& os, const Personnage& p)
-{
-	os << "Nom du joueur : " << p.nom << "	| Point de vie : " + std::to_string(p.vie);
-	return os;
-};
+
+
 
 

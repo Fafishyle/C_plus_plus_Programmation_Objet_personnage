@@ -1,5 +1,7 @@
 ﻿  Magicien.cpp
   Personnage.cpp
   TD4.cpp
+C:\Users\finar\Documents\Univ lyon 2 2023-2024\Spécialisation C++\TD4\TD4_C_Objet\TD4_C_Personnage\TD4.cpp(16,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\finar\Documents\Univ lyon 2 2023-2024\Spécialisation C++\TD4\TD4_C_Objet\TD4_C_Personnage\TD4.cpp(48,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
   Génération de code en cours...
   TD4.vcxproj -> C:\Users\finar\Documents\Univ lyon 2 2023-2024\Spécialisation C++\TD4\TD4_C_Objet\TD4_C_Personnage\x64\Debug\TD4.exe
